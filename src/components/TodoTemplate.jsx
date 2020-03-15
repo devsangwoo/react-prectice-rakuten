@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const TodoTemplateBlock = styled.div`
   width: 512px;
@@ -14,6 +14,7 @@ const TodoTemplateBlock = styled.div`
   margin-bottom: 32px;
   display: flex;
   flex-direction: column;
+  color: black;
 `;
 const TodoTemplate = ({ children }) => {
   return <TodoTemplateBlock>{children}</TodoTemplateBlock>;
