@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './Button.scss';
 
 export class CounterClass extends Component {
   //   constructor(props) {
@@ -65,6 +66,7 @@ export class CounterClass extends Component {
           업데이트를 함수형업데이트로 줄수있음, 셋스테이트는 상태로 요청을 해달라는것임,
           비동기적으로 업데이트됨 따라서 함수형으로 해주면 4가 올라감
         </div>
+        <div>클래스->라이프사이클 메소드 함수형->유즈이펙트</div>
       </div>
     );
   }
